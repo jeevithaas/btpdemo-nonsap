@@ -28,7 +28,7 @@ modules:
         properties:
           url: ${default-url}
     properties:
-      TITLE: "Hello Java!"
+      TITLE: "Hello!"
       A1URL: ~{app1-provided/url}
     parameters:
       memory: 500M
