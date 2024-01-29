@@ -13,7 +13,7 @@ modules:
         properties:
           url: ${default-url}
     properties:
-      TITLE: "Hello Node!"
+      TITLE: "Node application"
       A2URL: ~{app2-provided/url}
     parameters:
       memory: 500M
@@ -28,7 +28,7 @@ modules:
         properties:
           url: ${default-url}
     properties:
-      TITLE: "Hello!"
+      TITLE: "Java application"
       A1URL: ~{app1-provided/url}
     parameters:
       memory: 500M
